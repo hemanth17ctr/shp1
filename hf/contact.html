@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us | Casnart</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #e0f7f7;
+      color: #111;
+    }
+
+    header {
+      background-color: #fff;
+      padding: 1rem 2rem;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 3rem 1.5rem;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1.125rem;
+      margin-bottom: 2rem;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    input, textarea {
+      padding: 1rem;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      background-color: #fff;
+      outline: none;
+      transition: border 0.3s ease;
+    }
+
+    input:focus, textarea:focus {
+      border-color: #333;
+    }
+
+    button {
+      background-color: #111;
+      color: #fff;
+      padding: 1rem 2rem;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #333;
+    }
+
+    .contact-info {
+      margin-top: 3rem;
+      font-size: 1rem;
+    }
+
+    .contact-info strong {
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background-color: #fff;
+      border-top: 1px solid #ccc;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h2>Casnart</h2>
+  </header>
+
+  <main class="container">
+    <h1>Contact Us</h1>
+    <p>We'd love to hear from you! Whether you have a question about your order, our products, or anything else — our team is ready to help.</p>
+
+    <form>
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+
+    <div class="contact-info">
+      <strong>Email:</strong> support@casnart.com<br />
+      <strong>Phone:</strong> +1 (123) 456-7890<br />
+      <strong>Address:</strong> 123 Fashion Ave, New York, NY 10001
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 Casnart. All rights reserved.
+  </footer>
+
+</body>
+</html>
